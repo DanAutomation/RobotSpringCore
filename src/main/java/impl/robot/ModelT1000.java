@@ -24,8 +24,8 @@ public class ModelT1000 implements Robot {
     @Override
     public void fight() {
         hand.attack();
-        leg.attack();
-        head.attack();
+        leg.hit();
+        head.think();
     }
 
     @Override

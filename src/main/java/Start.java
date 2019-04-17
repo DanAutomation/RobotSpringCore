@@ -6,7 +6,7 @@ public class Start {
 
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("context.xml");
-        Object obj = context.getBean("t1000");
+        Object obj = context.getBean("t1000Empty");
 
         if(obj instanceof ModelT1000) {
 

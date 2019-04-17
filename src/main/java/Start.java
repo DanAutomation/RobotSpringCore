@@ -11,7 +11,7 @@ public class Start {
         if(obj instanceof ModelT1000) {
 
             ModelT1000 t1000 = (ModelT1000) obj;
-            t1000.protect();
+            t1000.fight();
         }
     }
 }

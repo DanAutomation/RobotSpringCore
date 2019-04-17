@@ -4,7 +4,7 @@ import interfaces.Leg;
 
 public class SonyLeg implements Leg {
     public void hit() {
-        System.out.println("cick the ball!!");
+        System.out.println("cick the ball for Sony!!");
     }
 
     public void attack() {

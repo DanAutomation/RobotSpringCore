@@ -9,6 +9,6 @@ public class SonyHand implements Hand {
     }
 
     public void attack() {
-        System.out.println("fire in the hall!!!");
+        System.out.println("fire in the hall for Sony!!!");
     }
 }
